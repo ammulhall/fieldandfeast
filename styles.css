@@ -74,7 +74,6 @@ body {
     background-color: #1F2A44;
     color: #FAF9F6;
     text-align: center;
-    padding: 2rem 1rem;
   }
   
   header img {
@@ -83,7 +82,7 @@ body {
   }
   
   header h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0.5rem 0;
   }
   
@@ -167,12 +166,23 @@ body {
     color: var(--dark-charcoal);
   }
   
-  a {
-    color: var(--olive-green);
-    text-decoration: none;
-    font-weight: bold;
+  .gallery-link {
+    text-align: center;
+    margin-top: 2rem;
   }
   
+  .gallery-link a {
+    display: inline-block;
+    background-color: #76885B; /* olive-green */
+    color: #FAF9F6; /* soft-white or linen text */
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
   footer {
     background-color: var(--midnight-blue);
     color: white;
