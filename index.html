@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Field & Feast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -39,34 +40,35 @@
 
     <section id="offerings">
       <h2>Our Offerings</h2>
+      <div class="offerings-grid">
+        <div>
+          <h3>Artisan Provisions</h3>
+          <p>
+            Hand-selected, seasonal ingredients sourced from our estate farm and trusted local
+            growers. Each item is chosen for its freshness, flavor, and integrity.
+          </p>
+        </div>
 
-      <div>
-        <h3>Artisan Provisions</h3>
-        <p>
-          Hand-selected, seasonal ingredients sourced from our estate farm and trusted local
-          growers. Each item is chosen for its freshness, flavor, and integrity.
-        </p>
-      </div>
+        <div>
+          <h3>Exclusive Dining Experiences</h3>
+          <p>
+            Join us for intimate chef-led tastings and farm-to-table feasts, where carefully
+            crafted menus highlight the best of the season.
+          </p>
+        </div>
 
-      <div>
-        <h3>Exclusive Dining Experiences</h3>
-        <p>
-          Join us for intimate chef-led tastings and farm-to-table feasts, where carefully
-          crafted menus highlight the best of the season.
-        </p>
-      </div>
-
-      <div>
-        <h3>The Field & Feast Monthly Basket</h3>
-        <ul>
-          <li><strong>Hand-Harvested Produce:</strong> Fresh, organic fruits and vegetables.</li>
-          <li><strong>Artisan-Crafted Goods:</strong> Specialty cheeses, house-made preserves, and small-batch baked goods.</li>
-          <li><strong>Exclusive Recipes & Pairings:</strong> Thoughtfully designed by our chefs to inspire culinary creativity.</li>
-        </ul>
-        <p>
-          Elevate your home dining with the finest farm-to-table offerings,
-          elegantly packaged and delivered with care.
-        </p>
+        <div>
+          <h3>The Field & Feast Monthly Basket</h3>
+          <ul>
+            <li><strong>Hand-Harvested Produce:</strong> Fresh, organic fruits and vegetables.</li>
+            <li><strong>Artisan-Crafted Goods:</strong> Specialty cheeses, house-made preserves, and small-batch baked goods.</li>
+            <li><strong>Exclusive Recipes & Pairings:</strong> Thoughtfully designed by our chefs to inspire culinary creativity.</li>
+          </ul>
+          <p>
+            Elevate your home dining with the finest farm-to-table offerings,
+            elegantly packaged and delivered with care.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -77,81 +79,81 @@
         of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table
         creations, each photo tells the story of our commitment to excellence.
       </p>
+      <div class="gallery-grid">
+        <figure>
+          <img
+            src="images/tomatoes-600w.jpg"
+            srcset="
+              images/tomatoes-200w.jpg 1200w,
+              images/tomatoes-300w.jpg 900w,
+              images/tomatoes-600w.jpg 600w"
+            sizes="(min-width: 1200px) 200px,
+                  (min-width: 900px) 300px, 
+                    600px"
+            alt="Heirloom tomatoes at peak ripeness.">
+          <figcaption>Heirloom tomatoes at peak ripeness.</figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src="images/tomatoes-600w.jpg"
-          srcset="
-            images/tomatoes-200w.jpg 1200w,
-            images/tomatoes-300w.jpg 900w,
-            images/tomatoes-600w.jpg 600w"
-          sizes="(min-width: 1200px) 200px,
-                 (min-width: 900px) 300px, 
-                  600px"
-          alt="Heirloom tomatoes at peak ripeness.">
-        <figcaption>Heirloom tomatoes at peak ripeness.</figcaption>
-      </figure>
+        <figure>
+          <img
+            src="images/olive-oil-600w.jpg"
+            srcset="
+              images/olive-oil-200w.jpg 1200w,
+              images/olive-oil-300w.jpg 900w,
+              images/olive-oil-600w.jpg 600w"
+            sizes="
+              (min-width: 1200px) 200px,
+              (min-width: 900px) 300px,
+              600vw"
+            alt="Drizzling golden olive oil over fresh harvest.">
+          <figcaption>Drizzling golden olive oil over fresh harvest.</figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src="images/olive-oil-600w.jpg"
-          srcset="
-            images/olive-oil-200w.jpg 1200w,
-            images/olive-oil-300w.jpg 900w,
-            images/olive-oil-600w.jpg 600w"
-          sizes="
-            (min-width: 1200px) 200px,
-            (min-width: 900px) 300px,
-            600vw"
-          alt="Drizzling golden olive oil over fresh harvest.">
-        <figcaption>Drizzling golden olive oil over fresh harvest.</figcaption>
-      </figure>
+        <figure>
+          <img
+            src="images/table-setting-600w.jpg"
+            srcset="
+              images/table-setting-200w.jpg 1200w,
+              images/table-setting-300.jpg 900w,
+              images/table-setting-600w.jpg 600w"
+            sizes="
+              (min-width: 1200px) 200px,
+              (min-width: 900px) 300px,
+              600px"
+            alt="Elegant tablescape under the evening sky.">
+          <figcaption>Elegant tablescape under the evening sky.</figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src="images/table-setting-600w.jpg"
-          srcset="
-            images/table-setting-200w.jpg 1200w,
-            images/table-setting-300.jpg 900w,
-            images/table-setting-600w.jpg 600w"
-          sizes="
-            (min-width: 1200px) 200px,
-            (min-width: 900px) 300px,
-            600px"
-          alt="Elegant tablescape under the evening sky.">
-        <figcaption>Elegant tablescape under the evening sky.</figcaption>
-      </figure>
+        <figure>
+          <img
+            src="images/chef-plating-600w.jpg"
+            srcset="
+              images/chef-plating-200w.jpg 1200w,
+              images/chef-plating-300w.jpg 900w,
+              images/chef-plating-600w.jpg 600w"
+            sizes="
+              (min-width: 1200px) 200px,
+              (min-width: 900px) 300px,
+              600px"
+            alt="Artful plating with seasonal ingredients.">
+          <figcaption>Artful plating with seasonal ingredients.</figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src="images/chef-plating-600w.jpg"
-          srcset="
-            images/chef-plating-200w.jpg 1200w,
-            images/chef-plating-300w.jpg 900w,
-            images/chef-plating-600w.jpg 600w"
-          sizes="
-            (min-width: 1200px) 200px,
-            (min-width: 900px) 300px,
-            600px"
-          alt="Artful plating with seasonal ingredients.">
-        <figcaption>Artful plating with seasonal ingredients.</figcaption>
-      </figure>
-
-      <figure>
-        <img
-          src="images/basket-600w.jpg"
-          srcset="
-            images/basket-200w.jpg 1200w,
-            images/basket-900w.jpg 300w,
-            images/basket-600w.jpg 600w"
-          sizes="
-            (min-width: 1200px) 200px,
-            (min-width: 900px) 300px,
-            600px"
-          alt="Our monthly basket, curated with care.">
-        <figcaption>Our monthly basket, curated with care.</figcaption>
-      </figure>
-
+        <figure>
+          <img
+            src="images/basket-600w.jpg"
+            srcset="
+              images/basket-200w.jpg 1200w,
+              images/basket-900w.jpg 300w,
+              images/basket-600w.jpg 600w"
+            sizes="
+              (min-width: 1200px) 200px,
+              (min-width: 900px) 300px,
+              600px"
+            alt="Our monthly basket, curated with care.">
+          <figcaption>Our monthly basket, curated with care.</figcaption>
+        </figure>
+      </div>
       <p><a href="#">View Our Full Gallery</a></p>
     </section>
   </main>
